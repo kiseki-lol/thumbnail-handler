@@ -83,7 +83,6 @@ IFACEMETHODIMP CKisekiThumb::GetThumbnail(UINT cx, HBITMAP *phbmp,
                                           WTS_ALPHATYPE *pdwAlpha) {
   HRESULT hr = S_FALSE;
 
-  // FUCKED. UP.
   std::vector<char> buffer;
   ULONG bytesRead;
   char chunk[4096];
